@@ -107,13 +107,13 @@ updateIndex "whl/nightly"
 # see resulting updates
 git update-index -q --refresh
 git diff-index --name-status HEAD
-updateHumanIndexes
-#if `git diff-index --quiet HEAD`
-#then
-#  echo "no update found in PyTorch main index."
-#  updateHumanIndexes
-#  exit 0
-#fi
+
+if `git diff-index --quiet HEAD`
+then
+  echo "no update found in PyTorch main index."
+  updateHumanIndexes
+  exit 0
+fi
 echo "updates found in PyTorch main index: updating also compute platform specific ones..."
 
 # update compute-platform specific indexes
