@@ -105,7 +105,6 @@ updateIndex "whl"
 updateIndex "whl/nightly"
 
 # see resulting updates
-git add .
 git update-index -q --refresh
 git diff-index --name-status HEAD
 
