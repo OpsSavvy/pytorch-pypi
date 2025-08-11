@@ -103,9 +103,9 @@ EOF
 # update main PyTorch index, that contains everything, whatever the compute platform
 updateIndex "whl"
 updateIndex "whl/nightly"
-updateIndex "whl/cu129"
 
 # see resulting updates
+git add .
 git update-index -q --refresh
 git diff-index --name-status HEAD
 
