@@ -1,13 +1,13 @@
-196 whl/simple
+199 whl/simple
 95 whl/cpu-cxx11-abi/simple
 105 whl/cpu/simple
 140 whl/cpu_pypi_pkg/simple
 115 whl/cu118/simple
 114 whl/cu121/simple
 105 whl/cu124/simple
-108 whl/cu126/simple
-109 whl/cu128/simple
-106 whl/cu129/simple
+110 whl/cu126/simple
+111 whl/cu128/simple
+108 whl/cu129/simple
 347 whl/nightly/simple
 99 whl/rocm6.0/simple
 102 whl/rocm6.1/simple
