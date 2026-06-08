@@ -8,7 +8,7 @@
 112 whl/cu126/simple
 113 whl/cu128/simple
 111 whl/cu129/simple
-347 whl/nightly/simple
+348 whl/nightly/simple
 100 whl/rocm6.0/simple
 103 whl/rocm6.1/simple
 103 whl/rocm6.2.4/simple
