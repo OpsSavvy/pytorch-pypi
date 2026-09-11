@@ -5,7 +5,7 @@
 133 whl/cu118/simple
 132 whl/cu121/simple
 123 whl/cu124/simple
-128 whl/cu126/simple
+129 whl/cu126/simple
 129 whl/cu128/simple
 127 whl/cu129/simple
 352 whl/nightly/simple
